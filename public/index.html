@@ -8,7 +8,87 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1 class="logo"><img src="./images/logo.png" alt=""></h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class=""><a href="#" class="ctn">Contact</a></li>
+        </ul>
+        <img src="./images/menu.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>
+                Explore The Colorful World</h2>
+                <div class="line"></div>
+                <h1>A WONDERFUL GIFT</h1>
+                <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <!-- == Events== -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./images/Untitled design1.jpg" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla inventore quisquam, assumenda velit aut totam.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        <div class="">
+            <div class="col">
+                <img src="./images/Untitled design.jpg" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla inventore quisquam, assumenda velit aut totam.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quia culpa corporis quaerat rem praesentium?</P>
+        <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quibusdam aperiam temporibus! Quasi minus odit quo rerum alias, saepe fugit placeat quod omnis voluptas tempora molestias obcaecati voluptatem soluta ea!</P>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./images/Untitled design (2).jpg" alt="">
+                    <img src="./images/Untitled design (3).jpg" alt="">
+                    <img src="./images/Untitled design (4).jpg" alt="">
+                    <img src="./images/Untitled design (7).jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p> M-03, Mateen Mall, Karachi, Pakistan|Phone:0320-2582602|Email: contact@example.com</p>
+        <p>CopyRight © 2023 ADVANTURE EXTREME EXPERIENCE</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
     
 </body>
 </html>
